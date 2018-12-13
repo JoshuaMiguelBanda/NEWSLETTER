@@ -1,0 +1,80 @@
+body{
+	font-family: century gothic;
+	background-image: url(../images/lights.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	border: 5px white dashed;
+	margin-bottom: 5px;
+}
+
+.showcase{
+	height: 95vh;
+	background-image: url(../images/balay.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 10px;
+}
+
+.showcase p{
+	text-align: center;
+	font-size: 70px;
+	color: white;
+	margin-top: 	
+}
+
+.showcase:hover{
+	background-image:  url(../images/balay2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+	
+
+.main-article{
+	margin-bottom: 10px;
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: 1fr 1fr;
+}
+
+.main-article-left{
+	padding: 50px;
+	color: white;
+	font-size: 30px;
+}
+
+.main-article-left img{
+	margin-left: 25%;
+}
+
+.main-article-right{
+	padding: 50px;
+	color: white;
+	font-size: 25px;
+}
+
+.main-article-right img{
+	margin-left: 25%;
+}
+
+.second-article{
+	margin-bottom: 10px;
+}
+
+.second-article-left{
+	padding: 100px;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+}
+
+.footer{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
